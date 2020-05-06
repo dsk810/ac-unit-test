@@ -179,6 +179,10 @@ from io import StringIO
 import unittest
 
 
+def resolve():
+
+
+
 class TestClass(unittest.TestCase):
     def assertIO(self, input, output):
         stdout, stdin = sys.stdout, sys.stdin
@@ -204,6 +208,7 @@ class TestClass(unittest.TestCase):
   text += `
 if __name__ == "__main__":
     unittest.main()
+    # resolve()
 `;
   
   return text;
