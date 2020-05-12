@@ -180,7 +180,10 @@ import unittest
 
 
 def resolve():
-
+    # s = input()
+    # n = int(input())
+    # a, b = map(int, readline().split())
+    # l = [list(map(int, readline().split())) for _ in range(n)]
 
 
 class TestClass(unittest.TestCase):
